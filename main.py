@@ -1,3 +1,8 @@
+def demo_map():
+    # TODO...
+    # WIP = work in progress
+    pass
+
 
 def main():
     print('Hello main')
