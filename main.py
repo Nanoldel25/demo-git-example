@@ -1,3 +1,12 @@
+def demo_zip():
+    value1 = list(range(2, 10))
+    value2 = list(range(10, 29, 3))
+    print(value1)
+    print(value2)
+
+    for v1, v2 in zip(value1, value2):
+        print('v1 =', v1, 'v2 =', v2, 'sum =', v1+v2)
+
 def demo_map():
    list1 = [1, 2, 3, 4]
    list2 = [3, 4, 5, 6]
@@ -7,6 +16,7 @@ def demo_map():
 
 def main():
     # print('Hello main')
+    demo_zip()
     demo_map()
 
 if __name__ == "__main__":
