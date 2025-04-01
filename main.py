@@ -7,6 +7,12 @@ def demo_zip():
     for v1, v2 in zip(value1, value2):
         print('v1 =', v1, 'v2 =', v2, 'sum =', v1+v2)
 
+    value3 = list(range(20, -7, -4))
+    print("==="*10)
+
+    for v1, v2, v3 in zip(value1, value2, value3):
+        print('v1 =', v1, 'v2 =', v2, 'v3 =', v3, 'sum =', v1+v2+v3)
+
 def demo_map():
    list1 = [1, 2, 3, 4]
    list2 = [3, 4, 5, 6]
